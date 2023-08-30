@@ -10,8 +10,8 @@
     <!--tabla simple-->
     <table border ="1">
         <tr>
-            <td>ID</td>
-            <td>Carrera</td> 
+            <th>ID</th>
+            <th>Carrera</th> 
         </tr>
         <tr>
             <td>1</td>
@@ -29,5 +29,36 @@
     </tr>
 
     </table>
+
+<hr>
+
+<!--tabla con celdas combinadas-->
+
+<table border = "1">
+    <tr>
+        <th>Horario</th>
+        <th>Lunes</th>
+        <th>martes</th>
+        <th>miercoles</th>
+        <th>jueves</th>
+        <th>Viernes</th>
+    </tr>
+
+    <tr>
+        <td>7:00 a 8:00</td>
+        <td rowspan="2">natacion</td>
+        <td>progra</td>
+        <td colspan="3">-</td>
+
+    </tr>
+
+    <tr>
+        <td>8:00 a 9:00</td>
+        <td>web</td>
+        <td colspan="3">-</td>
+    </tr>
+
+</table>
+
 </body>
 </html>
